@@ -1,0 +1,40 @@
+
+.top{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:flex-start;
+    align-items:center;
+    background: white;
+}
+.navbar {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 16px;
+    height:60px;
+    padding:0px;
+}
+
+.dropdown-toggle{
+    color:black;
+}
+
+.bigcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.container-left{
+    align-content:left;
+    width:30vw;
+}
+
+.container-right{
+    align-content:right;
+    padding-left:20px;
+}
+.topleftcontainer{
+    padding-left:0px;
+}
